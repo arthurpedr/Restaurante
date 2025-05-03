@@ -1,12 +1,91 @@
-# React + Vite
+# 🍽️ Restaurante Paris six - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma landing page simples e elegante para um restaurante fictício chamado **Restaurante Paris six**. A página tem como objetivo apresentar o restaurante, exibir o cardápio, destacar os diferenciais e facilitar o contato com os clientes.
 
-Currently, two official plugins are available:
+## 📷 Viwer
+![Interface do site](./src/assets/Projeto.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- HTML, CSS e JavaScript
+- Tailwind CSS para estilização rápida e responsiva
+- React para estruturação dos componentes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Pré-requisitos
+
+Antes de começar, certifique-se de ter os seguintes requisitos instalados:
+- Navegador atualizado
+- Editor de código (VS Code, Sublime, etc.)
+- Node.js instalado (versão 16 ou superior recomendada)
+- Git (opcional, para versionamento)
+
+## 📦 Como Instalar e Executar
+
+1. Clone o repositório:
+```
+git clone https://github.com/arthurpedr/Restaurante.git
+```
+2. Acesse a pasta do projeto:
+```
+cd Restaurante
+```
+3. Instale as dependências:
+```
+npm install
+```
+4. Inicie o servidor de desenvolvimento:
+```
+npm run dev
+```
+5. Acesse no navegador:
+```
+Exemplo: http://localhost:5173
+```
+
+## 📄 Estrutura do Projeto
+
+```
+/
+├── src/
+│   ├── assets/       # Imagens utilizadas no projeto  
+│   ├── pages/        # Páginas do projeto e seus componentes  
+│   └── main.jsx      # Arquivo raiz do projeto
+
+```
+
+## 📌 Funcionalidades
+
+✅ Projeto Responsivo
+✅ Cardápio com categorias de pratos (entradas, pratos principais, sobremesas, bebidas)
+✅ Mapa de localização (Google Maps embutido)
+✅ Formulário de contato
+
+## ✨ Melhorias Futuras
+
+ - Otimização da pagina
+
+## 🛠️ Contribuição
+
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature:
+```
+git checkout -b minha-feature
+```
+3. Faça commit das suas alterações:
+```
+git commit -m 'Adicionando nova feature'
+```
+4. Envie para o repositório remoto:
+```
+git push origin minha-feature
+```
+5. Abra um **Pull Request** explicando o que foi feito.
+
+
+## 📜 Licença
+
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 📞 Contato
+
+📧 Email: pedroporteiras@gmail.com
