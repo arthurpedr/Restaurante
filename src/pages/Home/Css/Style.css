@@ -1,0 +1,50 @@
+.underline-hover {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-hover::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #F2F2F2; /* Cor padrão */
+  transition: all 0.6s ease;
+  transform: translateX(-50%); /* Centraliza o underline */
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+  left: 0;
+  transform: none; /* Remove a centralização ao hover */
+}
+
+#main-header.scrolled .underline-hover::after {
+  background-color: #000000; /* Cor de fundo preta quando o cabeçalho rolar */
+}
+
+/* Estilo padrão do cabeçalho */
+#main-header {
+  background-color: transparent; /* Fundo inicial transparente */
+  transition: background-color 0.3s ease; /* Transição suave para o fundo */
+  color: #F2F2F2;
+}
+
+/* Estilo quando o cabeçalho estiver "scrolled" */
+#main-header.scrolled {
+  background-color: #D6A159; /* Cor de fundo quando o usuário rolar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar o cabeçalho */
+  color: #1A1A1A;
+}
+
+/* Estilo para os links do Footer*/
+#Footer{
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#Footer:hover{
+  color: rgba(0, 0, 0, 0.5);
+}
