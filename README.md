@@ -3,7 +3,7 @@
 Este projeto é uma landing page simples e elegante para um restaurante fictício chamado **Restaurante Paris six**. A página tem como objetivo apresentar o restaurante, exibir o cardápio, destacar os diferenciais e facilitar o contato com os clientes.
 
 ## 📷 Viwer
-![Interface do site](./src/assets/Projeto.png)
+![Interface do site](./src/assets/projeto.png)
 
 ## 🚀 Tecnologias Utilizadas
 
