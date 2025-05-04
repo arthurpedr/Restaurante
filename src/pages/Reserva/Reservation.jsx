@@ -9,8 +9,8 @@ function Reservation() {
         <p>Reservation</p>
       </div>
         <div className='flex flex-wrap justify-center items-center'>
-            <div className="w-[80%] sm:w-[500px] flex justify-center items-center">
-              <img className='rounded-[10px]' src="/restaurante.jpg" alt="restaurante" />
+            <div className="w-[70%] md:w-[500px] flex justify-center items-center">
+              <img className='rounded-[10px]' src="/publi.jpg" alt="page de reserva" />
             </div>
             <div className="w-[500px] flex flex-col justify-center gap-8 items-center">
               <p className="text-[#F2F2F2] text-4xl font-semibold">

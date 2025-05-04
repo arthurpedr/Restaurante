@@ -2,18 +2,18 @@ import ButtonTop from '../Home/Componente/ScrolltopButtun.jsx';
 
 function AboutUs() {
   return (
-    <div className="w-full h-[110vh] xl:h-screen flex bg-[#1A1A1A] flex justify-center items-center"
+    <div className="w-full h-[130vh] xl:h-screen flex bg-[#1A1A1A] flex justify-center items-center"
     id="AboutUs">
       <div className="w-[1100px] h-[600px] flex flex-col justify-center items-center gap-12">
         <div className="flex mt-4 text-4xl text-[#C9A75D] font-semibold ">
           <p>About Us</p>
         </div>
         <div className="flex justify-center items-center gap-14 flex-wrap">
-          <div className="w-[80%] md:w-[500px] overflow-hidden">
+          <div className="w-[80%] md:w-[500px] overflow-hidden flex justify-center items-center">
             <img
-              className="hover:scale-125 transition-all duration-300"
-              src="/restaurante.jpg"
-              alt="imagem"
+              className="w-[500px] h-[70%] md:h-[400px] hover:scale-125 transition-all duration-300"
+              src="/paris_six.png"
+              alt="Predio do Paris Six"
             />
           </div>
           <div className="w-[80%] md:w-[500px] text-[#F2F2F2] text-lg md:text-xl font-medium">
