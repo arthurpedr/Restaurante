@@ -2,9 +2,9 @@ import ButtonTop from '../Home/Componente/ScrolltopButtun.jsx';
 
 function AboutUs() {
   return (
-    <div className="w-full h-[130vh] xl:h-screen flex bg-[#1A1A1A] flex justify-center items-center"
+    <div className="w-full h-[125vh] md:h-full flex bg-[#1A1A1A] flex justify-center items-center"
     id="AboutUs">
-      <div className="w-[1100px] h-[600px] flex flex-col justify-center items-center gap-12">
+      <div className="max-w-[1100px] h-[600px] flex flex-col justify-center items-center gap-12">
         <div className="flex mt-4 text-4xl text-[#C9A75D] font-semibold ">
           <p>About Us</p>
         </div>
@@ -16,7 +16,7 @@ function AboutUs() {
               alt="Predio do Paris Six"
             />
           </div>
-          <div className="w-[80%] md:w-[500px] text-[#F2F2F2] text-lg md:text-xl font-medium">
+          <div className="w-[80%] md:w-[500px] text-[#F2F2F2] text-md md:text-xl font-medium">
             <p>
               Fundado em 2006, o Paris 6 nasceu da paixão pela cultura,
               gastronomia e pela atmosfera dos tradicionais cafés parisienses.

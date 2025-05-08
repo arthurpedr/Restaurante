@@ -1,10 +1,10 @@
 function Location() {
   return (
     <div
-      className="w-full h-screen bg-[#1A1A1A] flex justify-center items-center"
+      className="w-full h-full bg-[#1A1A1A] flex justify-center items-center"
       id="Location"
     >
-      <div className="w-[1100px] h-[600px] flex flex-col justify-center items-center">
+      <div className="max-w-[1100px] h-[600px] flex flex-col justify-center items-center">
         <div className="text-4xl text-[#C9A75D] font-semibold mb-8">
           <p>Location</p>
         </div>

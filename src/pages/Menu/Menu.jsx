@@ -1,6 +1,6 @@
 function Menu() {
     return (
-      <div className="w-full h-[130vh] flex flex-col justify-center items-center bg-[#1A1A1A] px-4"
+      <div className="w-full h-[110vh] flex flex-col justify-center items-center bg-[#1A1A1A]"
       id="Menu">
         <div className="text-4xl text-[#C9A75D] font-semibold mb-8">
           <p>Menu</p>
