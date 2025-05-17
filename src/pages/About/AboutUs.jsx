@@ -12,7 +12,7 @@ function AboutUs() {
           <div className="w-[80%] md:w-[500px] overflow-hidden flex justify-center items-center">
             <img
               className="w-[500px] h-[70%] md:h-[400px] hover:scale-125 transition-all duration-300"
-              src="/paris_six.png"
+              src="/paris_six.webp"
               alt="Predio do Paris Six"
             />
           </div>

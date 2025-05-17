@@ -3,7 +3,7 @@ function Principal() {
     <div
       className="w-full h-[100vh] flex items-center justify-center z-0"
       style={{
-        backgroundImage: `url('/restaurante.jpg')`,
+        backgroundImage: `url('/restaurante.webp')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

@@ -10,7 +10,7 @@ function Reservation() {
     <div className="w-[80%] md:w-[1100px] h-[700px] flex justify-center items-center flex-wrap">
       {/* Imagem */}
       <div className="w-full max-w-[500px] flex justify-center items-center">
-        <img className="w-full h-auto md:h-[350px] rounded-[10px]" src="/publi.jpg" alt="page de reserva" />
+        <img className="w-full h-auto md:h-[350px] rounded-[10px]" src="/publi.webp" alt="page de reserva" />
       </div>
 
       {/* Formulário */}
